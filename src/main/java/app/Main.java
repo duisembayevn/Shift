@@ -86,11 +86,3 @@ public class Main {
 		formatter.printHelp("Main", options);
 	}
 }
-
-// Пример команд 
-
-// /Users/duisembayev/Desktop/shift_task/korona_analyze/src/main/java/app/dump.txt /Users/duisembayev/Desktop/shift_task/korona_analyze/src/main/java/app/dump2.txt -f -o ~/root/user -p /final ---->    full
-// /Users/duisembayev/Desktop/shift_task/korona_analyze/src/main/java/app/dump.txt /Users/duisembayev/Desktop/shift_task/korona_analyze/src/main/java/app/dump2.txt -o ~/root/user -p /final ---->    short
-
-//  -f -o ~/root/user -p /final ---> no files print help
-// dump.txt dump2.txt -o ~/root/user -p /final ---> please enter full path of files
