@@ -71,12 +71,13 @@ public class Main {
 			outputConfig
 		);
 		
-		System.out.println("<-------- Настройки -------->" + exportPath);
+		System.out.println("<-------- Настройки -------->");
 		System.out.println("- Файлы для анализа: " + fileNames);
 		System.out.println("- Префикс для файлов: " + prefix);
 		System.out.println("- Путь для сохранения: " + exportPath);
-		System.out.println("- Мод для выгрузки файлов: ");
-		System.out.println("<-------- Настройки -------->" + exportPath);
+		System.out.println("- Мод для выгрузки файлов: " + fileOutputStrategy);
+		System.out.println("- Вид анализа: " + analyzeStrategy);
+		System.out.println("<-------- Настройки -------->");
 		app.analyze();
 	}
 	
